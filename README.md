@@ -7,7 +7,7 @@ By Roee Hay ([@roeehay](https://twitter.com/roeehay)), Aleph Research
 Exploits CVE-2017-13174 for downgrading ABOOT to a CVE-2016-10277 ([initroot](https://github.com/alephsecurity/initroot) susceptible version.
 
 Please note:
-1. Google could not reproduce our PoC.
+1. Google could not reproduce our PoC (getting into EDL).
 2. Our test device has a relocked bootloader.
 
 More details:

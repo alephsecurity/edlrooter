@@ -21,6 +21,7 @@ fastboot getvar version-bootloader
 fastboot oem config fsg-id "a initrd=0x11000000,1519997"
 fastboot flash aleph ./img/initroot-shamu-aosp-nmf26f.cpio.gz
 fastboot continue
+gunzip ./img/radio.modem-n6f27e.img.gz
 adb wait-for-device
 adb push ./img/*.img /data/local/tmp
 adb shell dd of=/dev/block/platform/msm_sdcc.1/by-name/modem if=/data/local/tmp/radio.modem-n6f27e.img
