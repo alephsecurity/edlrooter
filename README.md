@@ -12,5 +12,5 @@ Please note:
 
 More details:
 1. [Blog](https://alephsecurity.com/2018/01/22/qualcomm-edl-1/)
-2. [Advisory](https://alephsecurity.com/vulns/aleph-2017025)
+2. [Advisory](https://alephsecurity.com/vulns/aleph-2017027)
 
